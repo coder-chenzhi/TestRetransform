@@ -1,0 +1,5 @@
+# ignore paths and files generate by Eclipse
+.project
+.classpath
+bin
+.settings
