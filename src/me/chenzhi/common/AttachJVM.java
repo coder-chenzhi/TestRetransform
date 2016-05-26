@@ -4,7 +4,7 @@ import java.lang.management.ManagementFactory;
 
 import com.sun.tools.attach.VirtualMachine;
 
-public class TestAttachJVM {
+public class AttachJVM {
     public static void main(String[] args) {
 	try {
 	    String agentPath = "AllLoadedClassAgent.jar";
