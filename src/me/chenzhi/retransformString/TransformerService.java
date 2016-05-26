@@ -1,4 +1,4 @@
-package me.chenzhi;
+package me.chenzhi.retransformString;
 
 import java.lang.instrument.Instrumentation;
 
@@ -16,7 +16,7 @@ public class TransformerService implements TransformerServiceMBean {
 
 		/**
 		 * {@inheritDoc}
-		 * @see com.heliosapm.shorthandexamples.TransformerServiceMBean#transformClass(java.lang.String, java.lang.String, java.lang.String)
+		 * @see me.chenzhi.retransformString.heliosapm.shorthandexamples.TransformerServiceMBean#transformClass(java.lang.String, java.lang.String, java.lang.String)
 		 */
 		@Override
 		public void transformClass(String className, String methodName, String methodSignature) {

@@ -1,4 +1,4 @@
-package me.chenzhi;
+package me.chenzhi.retransformString;
 
 public interface TransformerServiceMBean {
 	  /**
